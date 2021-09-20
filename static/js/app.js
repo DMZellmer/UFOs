@@ -44,7 +44,7 @@ function filterOnAKey(data, key) {
 
 // 3. Use this function to update the filters. 
 function updateFilters() {
-  var filterList = ['datetime', 'state', 'country', 'shape'];
+  var filterList = ['datetime', 'city', 'state', 'country', 'shape'];
 
   let filteredData = tableData;
 
